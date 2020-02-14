@@ -1,6 +1,10 @@
 from nltk.stem import WordNetLemmatizer
 import my_lemmatizer
 
+# 初回
+# import nltk
+# nltk.download("all")
+
 word_list=[("better","n"),("better","a"),("better","r"),("met","v"),("sdgaseszdcgs","n")]
 
 lemmatizer = WordNetLemmatizer()
